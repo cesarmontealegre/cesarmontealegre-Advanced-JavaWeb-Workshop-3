@@ -51,9 +51,13 @@ Additionally, we added the following features:
 
 - Encryption (AES_ENCRYPT)
 
+AES_ENCRYPT is a MySQL function that encrypts a string using the AES algorithm with a specified key. The resulting encrypted string is returned as a binary string.
+
 ![image](https://user-images.githubusercontent.com/84823972/236591540-439462e1-1a4e-402b-b96b-6170da3bd78c.png)
 
 - Decrypt (AES_DECRYPT)
+
+AES_DECRYPT is a MySQL function that decrypts an AES-encrypted string using the specified key. The function takes the encrypted string and the key as inputs and returns the original plaintext string.
 
 ![image](https://user-images.githubusercontent.com/84823972/236591609-a642343c-39c1-446d-ba3d-266201a77774.png)
 
