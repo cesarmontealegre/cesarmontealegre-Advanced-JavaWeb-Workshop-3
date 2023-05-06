@@ -21,6 +21,42 @@ Additionally, we added the following features:
 - MySQL Database: A MySQL database was created to store user data for registration and login.
 - User Registration and Login: Registration and login forms were created to allow users to register and access the application.
 
+## Different Ways To Connect To a Database
+
+1. BasicConnection.
+
+![image](https://user-images.githubusercontent.com/84823972/236591151-e9ef1142-dbda-4834-826a-12e6b55c7d0e.png)
+
+2. BasicConnectionSingleton.
+
+![image](https://user-images.githubusercontent.com/84823972/236591197-61bf7a72-b4c5-4b7d-832f-070c3e95827b.png)
+
+3. BasicConnectionWithResources.
+
+![image](https://user-images.githubusercontent.com/84823972/236591220-5a27d6b8-3363-4191-bd7a-bb3fe6ffeaf3.png)
+
+4. ConnectionPool.
+
+![image](https://user-images.githubusercontent.com/84823972/236591259-c34df47e-fb98-4aad-b0ab-cb0139294707.png)
+
+5. UseBasicConnectionSingleton.
+
+![image](https://user-images.githubusercontent.com/84823972/236591296-0e177840-64b6-4212-8364-6ebc1077f772.png)
+
+6. UseConnectionPool.
+
+![image](https://user-images.githubusercontent.com/84823972/236591330-57986f21-e4ac-41f1-a3d1-32f8b08adf23.png)
+
+## Password security MySQL
+
+- Encryption (AES_ENCRYPT)
+
+![image](https://user-images.githubusercontent.com/84823972/236591540-439462e1-1a4e-402b-b96b-6170da3bd78c.png)
+
+- Decrypt (AES_DECRYPT)
+
+![image](https://user-images.githubusercontent.com/84823972/236591609-a642343c-39c1-446d-ba3d-266201a77774.png)
+
 ## How to Run the Project
 
 To run the project, you will need to follow these steps:
